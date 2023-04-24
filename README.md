@@ -7,7 +7,7 @@
 
 
 
-[ [Project Page](https://arctic.is.tue.mpg.de) ][ [Paper]() ][ [Video]() ]  
+[ [Project Page](https://arctic.is.tue.mpg.de) ][ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ][ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ]  
 
 
 <p align="center">    
