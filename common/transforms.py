@@ -8,6 +8,60 @@ from common.np_utils import permute_np
 Useful geometric operations, e.g. Perspective projection and a differentiable Rodrigues formula
 Parts of the code are taken from https://github.com/MandyMo/pytorch_HMR
 """
+def to_xy(x_homo):
+    assert isinstance(x_homo, (torch.FloatTensor, torch.cuda.FloatTensor))
+    assert x_homo.shape[1] == 3
+    assert len(x_homo.shape) == 2
+    batch_size = x_homo.shape[0]
+    x = torch.ones(batch_size, 2, device=x_homo.device)
+    x = x_homo[:, :2] / x_homo[:, 2:3]
+    return x
+
+
+def to_xyz(x_homo):
+    assert isinstance(x_homo, (torch.FloatTensor, torch.cuda.FloatTensor))
+    assert x_homo.shape[1] == 4
+    assert len(x_homo.shape) == 2
+    batch_size = x_homo.shape[0]
+    x = torch.ones(batch_size, 3, device=x_homo.device)
+    x = x_homo[:, :3] / x_homo[:, 3:4]
+    return x
+
+def to_homo(x):
+    assert isinstance(x, (torch.FloatTensor, torch.cuda.FloatTensor))
+    assert x.shape[1] == 3
+    assert len(x.shape) == 2
+    batch_size = x.shape[0]
+    x_homo = torch.ones(batch_size, 4, device=x.device)
+    x_homo[:, :3] = x.clone()
+    return x_homo
+
+
+def to_homo_batch(x):
+    assert isinstance(x, (torch.FloatTensor, torch.cuda.FloatTensor))
+    assert x.shape[2] == 3
+    assert len(x.shape) == 3
+    batch_size = x.shape[0]
+    num_pts = x.shape[1]
+    x_homo = torch.ones(batch_size, num_pts, 4, device=x.device)
+    x_homo[:, :, :3] = x.clone()
+    return x_homo
+
+
+
+def to_xyz_batch(x_homo):
+    """
+    Input: (B, N, 4)
+    Ouput: (B, N, 3)
+    """
+    assert isinstance(x_homo, (torch.FloatTensor, torch.cuda.FloatTensor))
+    assert x_homo.shape[2] == 4
+    assert len(x_homo.shape) == 3
+    batch_size = x_homo.shape[0]
+    num_pts = x_homo.shape[1]
+    x = torch.ones(batch_size, num_pts, 3, device=x_homo.device)
+    x = x_homo[:, :, :3] / x_homo[:, :, 3:4]
+    return x
 
 
 def to_xy_batch(x_homo):
