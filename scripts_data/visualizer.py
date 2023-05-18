@@ -91,6 +91,8 @@ def main():
     for seq_idx, seq_p in enumerate(seq_ps):
         logger.info(f"Rendering seq#{seq_idx+1}, seq: {seq_p}, view: {args.view_idx}")
         seq_name = seq_p.split("/")[-1].split(".")[0]
+        sid = seq_p.split("/")[-2]
+        out_name = f"{sid}_{seq_name}_{args.view_idx}"
         batch = viewer.load_data(
             seq_p,
             args.mano,
@@ -101,7 +103,7 @@ def main():
             args.view_idx,
             subject_meta,
         )
-        viewer.render_seq(batch, out_folder=op.join("render_out", seq_name))
+        viewer.render_seq(batch, out_folder=op.join("render_out", out_name))
 
 
 if __name__ == "__main__":

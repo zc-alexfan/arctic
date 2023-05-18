@@ -8,6 +8,8 @@ from common.np_utils import permute_np
 Useful geometric operations, e.g. Perspective projection and a differentiable Rodrigues formula
 Parts of the code are taken from https://github.com/MandyMo/pytorch_HMR
 """
+
+
 def to_xy(x_homo):
     assert isinstance(x_homo, (torch.FloatTensor, torch.cuda.FloatTensor))
     assert x_homo.shape[1] == 3
@@ -26,6 +28,7 @@ def to_xyz(x_homo):
     x = torch.ones(batch_size, 3, device=x_homo.device)
     x = x_homo[:, :3] / x_homo[:, 3:4]
     return x
+
 
 def to_homo(x):
     assert isinstance(x, (torch.FloatTensor, torch.cuda.FloatTensor))
@@ -46,7 +49,6 @@ def to_homo_batch(x):
     x_homo = torch.ones(batch_size, num_pts, 4, device=x.device)
     x_homo[:, :, :3] = x.clone()
     return x_homo
-
 
 
 def to_xyz_batch(x_homo):

@@ -40,6 +40,8 @@ python scripts_data/visualizer.py --object --smplx --headless
 - `no_image`: do not show images.
 - `distort`: in egocentric view, lens distortion is servere as the camera is close to the 3D objects, leading to mismatch in 3D geometry and the images. When turned on, this option makes use of the lens distortion parameters for better GT-image overlaps by simulating the distortion effect using ["vertex displacement for distortion correction"](https://stackoverflow.com/questions/44489686/camera-lens-distortion-in-opengl). It uses the distortion parameters to distort the 3D geometry so that it has better 3D overlaps with the images. However, such a method creates artifacts when the 3D geometry is close to the camera.
 
+Segmentation mask IDs in the scene are defined [here](https://github.com/zc-alexfan/arctic-private/blob/arctic/common/viewer.py#L24).
+
 ## Controls to interact with the viewer
 
 [AITViewer](https://github.com/eth-ait/aitviewer) has lots of useful builtin controls. For an explanation of the frontend and control, visit [here](https://eth-ait.github.io/aitviewer/frontend.html). Here we assume you are in interactive mode (`--headless` is turned off).

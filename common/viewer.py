@@ -17,6 +17,12 @@ from loguru import logger
 from PIL import Image
 from tqdm import tqdm
 
+OBJ_ID = 100
+SMPLX_ID = 150
+LEFT_ID = 200
+RIGHT_ID = 250
+SEGM_IDS = {"object": OBJ_ID, "smplx": SMPLX_ID, "left": LEFT_ID, "right": RIGHT_ID}
+
 cmap = cm.get_cmap("plasma")
 materials = {
     "none": None,
@@ -253,7 +259,13 @@ def render_depth(v, depth_p):
 
 
 def render_mask(v, mask_p):
-    mask = np.array(v.get_mask()).astype(np.uint8)
+    nodes_uid = {node.name: node.uid for node in v.scene.collect_nodes()}
+    my_cmap = {
+        uid: [SEGM_IDS[name], SEGM_IDS[name], SEGM_IDS[name]]
+        for name, uid in nodes_uid.items()
+        if name in SEGM_IDS.keys()
+    }
+    mask = np.array(v.get_mask(color_map=my_cmap)).astype(np.uint8)
     mask = Image.fromarray(mask)
     mask.save(mask_p)
 
