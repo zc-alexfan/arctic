@@ -64,10 +64,7 @@ After running the above, you should expect:
 
 ```
 ➜ ls unpack/arctic_data/data 
-cropped_images  feat  images  meta  raw_seqs  splits_json
-
-➜ ls unpack/arctic_data/models
-1f9ac0b15  28bf3642f  3558f1342  40ae50712  423c6057b  546c1e997  58e200d16  701a72569
+cropped_images  images  meta  raw_seqs  splits_json
 ```
 
 If this unpacked data is what you want at the end, rename it `data` as the code expects the unpacked data is at `./data`:
