@@ -128,7 +128,7 @@ File: `'./data/arctic_data/data/raw_seqs/s01/box_grab_01.egocam.dist.npy'`
 
 - `R_k_cam_np`: Rotation matrix for the egocentric camera pose; `frames x 3 x 3`
 - `T_k_cam_np`: Translation for the egocentric camera pose; `frames x 3 x 1`
-- `intrinsics`: Egocentric camera intrinsics; `frames x 3 x 3`
+- `intrinsics`: Egocentric camera intrinsics; `3 x 3`
 - `ego_markers.ref`: markers on camera in the canonical frame; `markers x 3`
 - `ego_markers.label`: names for the markers; `markers`
 - `R0`: Rotation for the camera pose in canonical space; `3 x 3`
