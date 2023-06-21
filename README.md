@@ -5,7 +5,7 @@
     <img src="docs/static/arctic-logo.svg" alt="Image" width="600" height="100" />
 </p>
 
-[ [Project Page](https://arctic.is.tue.mpg.de) ][ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ][ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ] [[Register ARCTIC Account]](https://arctic.is.tue.mpg.de/register.php)
+[ [Project Page](https://arctic.is.tue.mpg.de) ][ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ][ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ] [[Register ARCTIC Account]](https://arctic.is.tue.mpg.de/register.php) | [[Competition](https://sites.google.com/view/hands2023/home)]
 
 
 <p align="center">    
@@ -44,8 +44,15 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
 ### News
 
+- 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
 - 2023.05.04: ARCTIC dataset with code for dataloaders, visualizers, models is officially announced (version 1.0)! 
 - 2023.03.25: ARCTIC ☃️ dataset (version 0.1) is available! 🎉
+
+Invited talks/posters at CVPR2023:
+- [4D-HOI workshop: Keynote](https://4dhoi.github.io/)
+- [Ego4D + EPIC workshop: Oral presentation](https://ego4d-data.org/workshops/cvpr23)
+- [Rhobin workshop: Poster](https://rhobin-challenge.github.io/schedule.html)
+- [3D scene understanding: Oral presentation](https://scene-understanding.com)
 
 ### Features
 
