@@ -1,13 +1,13 @@
 #!/bin/bash
 set -e
 
-echo "Downloading model weights"
-mkdir -p downloads/
-python scripts_data/download_data.py --url_file ./bash/assets/urls/models.txt --out_folder downloads --dry_run
-
 echo "Downloading smaller files"
 mkdir -p downloads/data
 python scripts_data/download_data.py --url_file ./bash/assets/urls/misc.txt --out_folder downloads/data --dry_run
+
+echo "Downloading model weights"
+mkdir -p downloads/
+python scripts_data/download_data.py --url_file ./bash/assets/urls/models.txt --out_folder downloads --dry_run
 
 echo "Downloading cropped images"
 mkdir -p downloads/data/cropped_images_zips
