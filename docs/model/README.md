@@ -8,7 +8,6 @@
 - [Full instructions on training](train.md)
 - [Evaluation](#evaluation)
 - [Visualization examples](#visualization)
-- [Full instructions on visualization](visualize.md)
 - [Details on `extract_predicts.py`](extraction.md)
 
 ## Overview
