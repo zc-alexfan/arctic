@@ -194,5 +194,9 @@ File: `'./data/arctic_data/data/feat/3558f1342/p1_minival.pt'`
 - `imgnames`: paths to images (used as a unique key); `num_images`
 - `feat_vec`: extracted image features; `num_images x 2048`
 
+## Joint convention
 
+We use the original MANO joint convention, which is illustrated below:
+
+![](mano_right.png)
 
