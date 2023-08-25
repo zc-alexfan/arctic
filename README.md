@@ -5,7 +5,12 @@
     <img src="docs/static/arctic-logo.svg" alt="Image" width="600" height="100" />
 </p>
 
-[ [Project Page](https://arctic.is.tue.mpg.de) ][ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ][ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ] [[Register ARCTIC Account]](https://arctic.is.tue.mpg.de/register.php) | [[Competition](https://sites.google.com/view/hands2023/home)]
+[ [Project Page](https://arctic.is.tue.mpg.de) ]
+[ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ]
+[ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ]
+[ [Register ARCTIC Account](https://arctic.is.tue.mpg.de/register.php) ]
+[ [ICCV Competition](https://sites.google.com/view/hands2023/home) ]
+[ [Leaderboard](docs/leaderboard.md) ]
 
 
 <p align="center">    
@@ -85,6 +90,7 @@ git clone https://github.com/zc-alexfan/arctic.git
 - Setup environment: see [`docs/setup.md`](docs/setup.md)
 - Download and visualize ARCTIC dataset: see [`docs/data/README.md`](docs/data/README.md)
 - Training, evaluating for our ARCTIC baselines: see [`docs/model/README.md`](docs/model/README.md).
+- Evaluation on test set: see [`docs/leaderboard.md`](docs/leaderboard.md)
 - FAQ: see [`docs/faq.md`](docs/faq.md)
 
 ### License
