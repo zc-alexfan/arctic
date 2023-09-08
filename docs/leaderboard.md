@@ -24,6 +24,8 @@ To avoid excessive hyperparameter tuning on the test set, each account can only 
 
 ## Preparing submission file
 
+We use models in ARCTIC as an example to prepare the submission files. To do that, we first infer on each sequence and dump predictions of the model to disks. The predictions will then be combined into a zip file for submission. If you use a different codebase than this repository, you can first run the following scripts to produce those prediction from our models, inspect the expected format for prediction, and create a custom submission script for your own code.
+
 To submit predictions, we need to use the extraction script `scripts_method/extract_predicts.py`. Detailed documentation on the extraction script is at [here](model/extraction.md). 
 
 To perform a trial submission, you can try to reproduce numbers on our model `28bf3642f`. It is a ArcticNet-SF model for the egocentric setting in our CVPR paper. See details on the [data documentation](data/data_doc.md) page.
