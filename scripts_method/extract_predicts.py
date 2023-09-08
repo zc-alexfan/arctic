@@ -1,3 +1,4 @@
+import os
 import json
 import os.path as op
 import sys
@@ -82,6 +83,12 @@ def main():
     else:
         assert False, f"Invalid extract ({args.extraction_mode})"
 
+    if "submit_" in args.extraction_mode:
+        task = args.extraction_mode.replace('submit_', '')
+        task_name = f'{task}_{args.setup}_test'
+        out_dir = out_dir.replace('/eval', f'/submit/{task_name}/eval')
+        os.makedirs(out_dir, exist_ok=True)
+
     for seq_idx, seq in enumerate(seqs):
         logger.info(f"Processing seq {seq} {seq_idx + 1}/{len(seqs)}")
         out_list = []
@@ -101,6 +108,13 @@ def main():
         out = interface.std_interface(out_list)
         interface.save_results(out, out_dir)
         logger.info("Done")
+
+    if 'submit_' in args.extraction_mode:
+        import shutil
+        zip_name = f'{task_name}'
+        zip_path = op.join(out_dir, zip_name).replace(f'/submit/{task_name}/eval/', '/submit/')
+        shutil.make_archive(zip_path, 'zip', out_dir)
+        logger.info(f"Your submission file as exported at {zip_path}.zip")
 
 
 if __name__ == "__main__":
