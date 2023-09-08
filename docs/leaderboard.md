@@ -12,7 +12,7 @@ After activating your account, you may now log into the website.
 
 ## Creating an algorithm
 
-After the login, click on `My algorithms` at the top to manage your algorithms. To add an algorithm, click on `Add algorithm` and fill in the information on your algorithm. Note that only the `short name` field is mandatory. Information here will be used to displayed on the leaderboard if you choose to publish them. By default, your algorithm will be scores will be private unless you publish them. Save this information to create an algorithm.
+After the login, click on `My algorithms` at the top to manage your algorithms. To add an algorithm, click on `Add algorithm` and fill in the information on your algorithm. Note that only the `short name` field is mandatory. Information here will be used to displayed on the leaderboard if you choose to publish them. By default, your algorithm scores will be private unless you publish them. Save to create the algorithm.
 
 ## Submitting to leaderboard
 
