@@ -26,7 +26,7 @@ To avoid excessive hyperparameter tuning on the test set, each account can only 
 
 To submit predictions, we need to use the extraction script `scripts_method/extract_predicts.py`. Detailed documentation on the extraction script is at [here](model/extraction.md). 
 
-To perform a trial submission, you can try to reproduce numbers on our model `28bf3642f`. It is a ArcticNet-SF model for the egocentric setting in our CVPR paper. See details on the data documentation page.
+To perform a trial submission, you can try to reproduce numbers on our model `28bf3642f`. It is a ArcticNet-SF model for the egocentric setting in our CVPR paper. See details on the [data documentation](data/data_doc.md) page.
 
 If you have prepared the arctic data following our standard instructions [here](data/README.md), you can copy the pre-trained model `28bf3642f` via:
 
