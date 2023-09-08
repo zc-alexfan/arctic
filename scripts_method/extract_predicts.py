@@ -113,7 +113,7 @@ def main():
         import shutil
         zip_name = f'{task_name}'
         zip_path = op.join(out_dir, zip_name).replace(f'/submit/{task_name}/eval/', '/submit/')
-        shutil.make_archive(zip_path, 'zip', out_dir)
+        shutil.make_archive(zip_path, 'zip', root_dir=op.dirname(zip_path), base_dir=op.basename(zip_path))
         logger.info(f"Your submission file as exported at {zip_path}.zip")
 
 
