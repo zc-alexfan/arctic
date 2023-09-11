@@ -12,19 +12,33 @@ After activating your account, you may now log into the website.
 
 ## Creating an algorithm
 
-After the login, click on `My algorithms` at the top to manage your algorithms. To add an algorithm, click on `Add algorithm` and fill in the information on your algorithm. Note that only the `short name` field is mandatory. Information here will be used to displayed on the leaderboard if you choose to publish them. By default, your algorithm scores will be private unless you publish them. Save to create the algorithm.
+
+After logging in, click "My algorithms" at the top to manage your algorithms. To add one, click "Add algorithm" and enter your algorithm details, with only the "short name" field being mandatory. This information will appear on the leaderboard if published. Algorithm scores remain private by default unless published. Click save to create the algorithm.
 
 ## Submitting to leaderboard
 
+After the step above, you'll reach a page to upload prediction results. Initially, use our provided CVPR model zip files below for a trial evaluation based on your chosen task. Post trial, you can submit your own zip files. We recommend starting with egocentric tasks due to their smaller file sizes:
 
-Following the step above, you will be directed to a page where you can upload your prediction results. Click on `Upload`, select the corresponding task to evaluate, and upload the zip file to evaluate (see below for creating such file). The file will be uploaded and evaluated against the groundtruth on the test set. Depending on the task and the amount of requests, it may take different time to evaluate. The evaluation results will appear as a table. If you click on `evaluation result`, you can download this table as a json file. Your results will not be displayed to the public unless you click on `publish`. 
+- [Consistent motion reconstruction: allocentric](https://download.is.tue.mpg.de/arctic/submission/pose_p1_test.zip)
+- [Consistent motion reconstruction: egocentric](https://download.is.tue.mpg.de/arctic/submission/pose_p2_test.zip)
+- [Interaction field estimation: allocentric](https://download.is.tue.mpg.de/arctic/submission/field_p1_test.zip)
+- [Interaction field estimation: egocentric](https://download.is.tue.mpg.de/arctic/submission/field_p2_test.zip)
 
 
-To avoid excessive hyperparameter tuning on the test set, each account can only submit to the server for **10 times in total every month**. 
 
-## Preparing submission file
+Click "Upload" and select the relevant task to upload your zip file for evaluation. The evaluation time may vary based on the task and number of requests. You'll see the results in a table, which can be downloaded as a JSON file by clicking "evaluation result".
 
-We use models in ARCTIC as an example to prepare the submission files. To do that, we first infer on each sequence and dump predictions of the model to disks. The predictions will then be combined into a zip file for submission. If you use a different codebase than this repository, you can first run the following scripts to produce those prediction from our models, inspect the expected format for prediction, and create a custom submission script for your own code.
+Your numbers should closely align with our CVPR models, serving as a sanity check for the file format. Results remain private unless you select "publish", allowing evaluation against the test set ground truth.
+
+To generate zip files for evaluation, create a custom script using the provided zip files as a template. If using our original codebase, utilize the extraction scripts below to create the zip files. Find detailed data format documentation for the leaderboard [here](leaderboard_format.md).
+
+To avoid excessive hyperparameter tuning on the test set, each account can only submit to the server for **10 successful evaluations in total every month**. 
+
+## Preparing submission file with original codebase
+
+We demonstrate preparing submission files using ARCTIC models as an example. First, run inference on each sequence and save the model predictions to disk. These predictions are then compiled into a zip file for submission. 
+
+> If you're using a different codebase, and prefer to write your own script for generating the zip files, you can inspect the example zip files above. 
 
 To submit predictions, we need to use the extraction script `scripts_method/extract_predicts.py`. Detailed documentation on the extraction script is at [here](model/extraction.md). 
 
