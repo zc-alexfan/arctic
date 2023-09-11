@@ -49,6 +49,7 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
 ### News
 
+- 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
 - 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
 - 2023.05.04: ARCTIC dataset with code for dataloaders, visualizers, models is officially announced (version 1.0)! 
 - 2023.03.25: ARCTIC ☃️ dataset (version 0.1) is available! 🎉
@@ -72,13 +73,6 @@ Invited talks/posters at CVPR2023:
 - Instructions to setup data, code, and environment to train our baselines.
 - A generalized codebase to train, visualize and evaluate the results of ArcticNet and InterField for the ARCTIC benchmark.
 - A viewer to interact with the prediction.
-
-TODOs:
-
-- [ ] Add more documentation to code
-- [ ] Utils to upload test set results to our evaluation server
-- [ ] Clean code further
-
 
 ### Getting started
 
