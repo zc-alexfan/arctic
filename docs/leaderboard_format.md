@@ -56,7 +56,7 @@ Looking at the tree structure above, you can see that there are two folders `met
 
 - `pred.mano.beta.l.pt`: (num_frames, 10); MANO betas for left hand for each frame; FloatTensor
 - `pred.mano.cam_t.l.pt`: (num_frames, 3); MANO [translation](https://github.com/zc-alexfan/arctic/blob/08c5e9396087c4529b448cdf736b65fae600866e/src/nets/hand_heads/mano_head.py#L51) for left hand; FloatTensor
-- `pred.mano.pose.l.pt`: (num_frames, 16, 3, 3); MANO joint rotations for left hand; FloatTensor; assume `flat_hand_mean=False`
+- `pred.mano.pose.l.pt`: (num_frames, 16, 3, 3); MANO hand rotations for left hand; FloatTensor; assume `flat_hand_mean=False`; this includes the global orientation; rotation matrix format.
 - `pred.object.cam_t.pt`: (num_frames, 3); Object [translation](https://github.com/zc-alexfan/arctic/blob/08c5e9396087c4529b448cdf736b65fae600866e/src/nets/obj_heads/obj_head.py#L60C27-L60C32); FloatTensor
 - `pred.object.radian.pt`: (num_frames); Object articulation radian.
 - `pred.object.rot.pt`: (num_frames, 3); Object orientation in axis-angle; FloatTensor
