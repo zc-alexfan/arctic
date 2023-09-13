@@ -385,7 +385,9 @@ class ArcticDataset(Dataset):
         if load_rgb:
             if speedup:
                 imgname = imgname.replace("/images/", "/cropped_images/")
-            imgname = imgname.replace("/arctic_data/", "/data/arctic_data/data/")
+            imgname = imgname.replace(
+                "/arctic_data/", "/data/arctic_data/data/"
+            ).replace("/data/data/", "/data/")
             cv_img, img_status = read_img(imgname, (2800, 2000, 3))
         else:
             norm_img = None
