@@ -15,6 +15,8 @@ After activating your account, you may now log into the website.
 
 After logging in, click "My algorithms" at the top to manage your algorithms. To add one, click "Add algorithm" and enter your algorithm details, with only the "short name" field being mandatory. This information will appear on the leaderboard if published. Algorithm scores remain private by default unless published. Click save to create the algorithm.
 
+**IMPORTANT: When an algorithm is created, you can submit on multiple sub-tasks. You do not need to create a separate algorithm for each sub-task**
+
 ## Submitting to leaderboard
 
 After the step above, you'll reach a page to upload prediction results. Initially, use our provided CVPR model zip files below for a trial evaluation based on your chosen task. Post trial, you can submit your own zip files. We recommend starting with egocentric tasks due to their smaller file sizes:
