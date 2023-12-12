@@ -125,3 +125,7 @@ Constructing the ARCTIC dataset is a huge effort. The authors deeply thank: [Tsv
 For technical questions, please create an issue. For other questions, please contact `arctic@tue.mpg.de`.
 
 For commercial licensing, please contact `ps-licensing@tue.mpg.de`.
+
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zc-alexfan/arctic&type=Date)](https://star-history.com/#zc-alexfan/arctic&Date)
