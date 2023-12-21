@@ -682,5 +682,8 @@
     "/data/raw_seqs.zip": "3c74f8cdb5fb4f521d99132faf0471432bab5db97c7653493b01920d2ad48535",
     "/data/splits.zip": "69e939f4969191a482597bd9a4356190a2732ac066ed0cda113f2bfd4f0386a7",
     "/data/splits_json.zip": "99af5f6759c727df07ef897db6d293cc866d465e6b3d6095579fcb62ac831b7d",
-    "/models.zip": "609bbe22b0305bd6173d8d436bb049ce4708001041c72695cb96d98be8dc3259"
+    "/models.zip": "609bbe22b0305bd6173d8d436bb049ce4708001041c72695cb96d98be8dc3259",
+    "/data/mocap_npy.zip": "843f2e227edb8387bb0cf3b6cfad3b7199bb48644f3666c0840ee16c4b74df15",
+    "/data/mocap_c3d.zip": "6168019d48668c0b33b561352aee883dcf92eeddcabbdc9e00d5656b483ea52d",
+    "/data/smplx_corres.zip": "50af50976986b00be627145a545cc6b2f5a0072175c32b40cdc64e981a1ff19f"
 }

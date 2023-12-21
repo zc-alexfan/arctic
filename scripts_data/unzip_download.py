@@ -36,6 +36,8 @@ def main():
             misc_zips.append(fname)
         elif "feat.zip" in fname:
             misc_zips.append(fname)
+        elif "mocap" in fname or 'smplx_corres.zip' in fname:
+            misc_zips.append(fname)
         elif "models.zip" in fname:
             models_zips.append(fname)
         else:

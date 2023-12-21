@@ -27,6 +27,9 @@ python scripts_data/visualizer.py --seq_p ./outputs/processed_verts/seqs/s01/cap
 
 # render all sequences into videos, RGB images with meshes, depth maps, and segmentation masks
 python scripts_data/visualizer.py --object --smplx --headless
+
+# visualize raw mocap data
+python scripts_data/mocap_viewer.py --mocap_p unpack/arctic_data/data/mocap_npy/s01_ketchup_use_01.npy
 ```
 
 ## Options

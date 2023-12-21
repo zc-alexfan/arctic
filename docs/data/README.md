@@ -180,6 +180,12 @@ Download our pre-trained CVPR model weights (optional):
 ./bash/download_baselines.sh
 ```
 
+Download MoCap related data (optional):
+
+```bash
+./bash/download_mocap.sh
+```
+
 After downloading what you need, you can now verify the checksum for corruption, and unzip them all:
 
 ```bash

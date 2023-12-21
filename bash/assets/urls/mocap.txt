@@ -1,0 +1,3 @@
+https://download.is.tue.mpg.de/download.php?domain=arctic&resume=1&sfile=arctic_release/c7216c3b205186106a1f8326ed7b948f838e4907e69b21c8b3c87bb69d87206e/v1_0/data/mocap/mocap_c3d.zip
+https://download.is.tue.mpg.de/download.php?domain=arctic&resume=1&sfile=arctic_release/c7216c3b205186106a1f8326ed7b948f838e4907e69b21c8b3c87bb69d87206e/v1_0/data/mocap/mocap_npy.zip
+https://download.is.tue.mpg.de/download.php?domain=arctic&resume=1&sfile=arctic_release/c7216c3b205186106a1f8326ed7b948f838e4907e69b21c8b3c87bb69d87206e/v1_0/data/mocap/smplx_corres.zip
