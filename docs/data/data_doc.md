@@ -12,6 +12,7 @@ Therefore, depending on your end goal, you might not need all the data we provid
 - If your goal is to generate full human or hand motion interacting object, you only need `raw_seqs` and `meta` as they provide SMPLX and MANO GT and the object template. 
 - If you want to customize your usage (preprocessing, building custom splits), for custom data processing, one can modify the stage `raw_seqs -> processed_seqs`; For custom splits, one can modify `processed_seqs -> splits` (see advanced usage below).
 
+
 ## Data folder
 
 ```
@@ -63,6 +64,12 @@ Others:
 - `object_params.json`: define mocap marker locations, 3D bounding box corners, object 3D keypoints used for training (16 keypoints for each part) in the object canonical space
 - `top_keypoints_300.json`: 300 keypoints on the top part of object using farthest point sampling
 - `bottom_keypoints_300.json`: bottom part
+
+**MoCap data**
+
+Our MoCap release contains three zip files (`mocap_c3d.zip`, `mocap_npy.zip`, `smplx_corres.zip`). The first two are the mocap data, including the marker names and the marker point cloud sequence in c3d format (can be directly viewed via MoCap software such as [Mokka](https://biomechanical-toolkit.github.io/mokka/)) or npy format (can be viewed with AITViewer; see [`[data/visualize.md]`](visualize.md)). `smplx_corres.zip` contains the SMPLX correspondances for the markers. Object marker correspondences can be found in `object_params.json` under each object's vtemplate folder. Note that MoCap marker locations in xyz is in milimeter. 
+
+For the SMPLX correspondances, there are two types of correspondances from MoSH++ (following GRAB): Red markers and blue markers. The blue correspondanes are the SMPLX vertex IDs corresponding to the markers in capture. The red markers are the actual marker locations optimized during stage-1 moshing process. See MoSH++ paper for more details. 
 
 ## Model folder
 
