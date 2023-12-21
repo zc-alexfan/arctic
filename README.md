@@ -49,6 +49,7 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
 ### News
 
+- 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
 - 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
 - 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
 - 2023.05.04: ARCTIC dataset with code for dataloaders, visualizers, models is officially announced (version 1.0)! 
