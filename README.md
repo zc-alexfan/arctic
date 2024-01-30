@@ -47,6 +47,16 @@ Potential tasks with ARCTIC:
 
 Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
+### Projects that use ARCTIC
+
+- [ArtiGrasp: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation](https://eth-ait.github.io/artigrasp/)
+- [Get a Grip: Reconstructing Hand-Object Stable Grasps in Egocentric Videos](https://zhifanzhu.github.io/getagrip/)
+- [3D Hand Pose Estimation in Egocentric Images in the Wild](https://ap229997.github.io/projects/hands/)
+- [Mitigating Perspective Distortion-induced Shape Ambiguity in Image Crops](https://ap229997.github.io/projects/ambiguity/)
+- [SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation](https://caizhongang.com/projects/SMPLer-X/)
+
+Create a pull request for missing projects.
+
 ### News
 
 - 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
