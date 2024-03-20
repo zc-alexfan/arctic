@@ -109,7 +109,7 @@ The model `40ae50712` is the model in the CVPR paper but it has dropout turned o
 
 ## Documentation on file formats
 
-Here we document the details of each field of our dataset. 
+Here we document the details of each field of our dataset. See [FAQ](https://github.com/zc-alexfan/arctic/blob/master/docs/faq.md) for commonly asked questions and how the 2D/3D spaces and cropping are related.
 
 File: `'./data/arctic_data/data/raw_seqs/s01/box_grab_01.mano.npy'`
 
