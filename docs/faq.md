@@ -19,3 +19,7 @@ python scripts_data/visualizer.py --seq_p ./outputs/processed_verts/seqs/s01/cap
 
 QUESTION: **Assertion error related to 21 joints**
 ANSWER: This is because smplx gives 16 joints for the MANO hand by default. See [setup instruction](setup.md) to allow 21 joints.
+
+
+QUESTION: **How's 2D space, 3D camera space, 3D world space are related? How about cropping?**
+ANSWER: See [here](https://github.com/zc-alexfan/arctic/issues/29#issuecomment-1751657365)
