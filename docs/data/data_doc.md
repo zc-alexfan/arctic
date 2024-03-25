@@ -18,6 +18,7 @@ Therefore, depending on your end goal, you might not need all the data we provid
 ```
 arctic_data/data/: ROOT
 arctic_data/data/images/
+arctic_data/data/images/backgrounds/: background images
 arctic_data/data/croppped_images/
 arctic_data/data/raw_seqs/
     s01/
