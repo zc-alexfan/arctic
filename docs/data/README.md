@@ -1,5 +1,17 @@
 # ARCTIC dataset
 
+
+HOLD can reconstruct 3D geometries of novel objects and hands:
+
+<p align="center">
+    <img src="./docs/static/hold/mug_ours.gif" alt="Image" width="50%"/>
+</p>
+
+<p align="center">
+    <img src="./docs/static/hold/mug_ref.png" alt="Image" width="50%"/>
+</p>
+
+
 ## Table of content
 
 - [Overview](#overview)
