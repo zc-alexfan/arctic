@@ -1,15 +1,14 @@
 # ARCTIC dataset
 
-
-HOLD can reconstruct 3D geometries of novel objects and hands:
-
-<p align="center">
-    <img src="./docs/static/hold/mug_ours.gif" alt="Image" width="50%"/>
-</p>
-
-<p align="center">
-    <img src="./docs/static/hold/mug_ref.png" alt="Image" width="50%"/>
-</p>
+> ✨CVPR 2024: HOLD can reconstruct 3D geometries of novel objects and hands. See our [project page](https://github.com/zc-alexfan/hold) for details.
+>
+> <p align="center">
+>     <img src="../static/hold/mug_ours.gif" alt="HOLD Reconstruction Example" width="300"/> <!-- Adjust width as needed -->
+> </p>
+>
+> <p align="center">
+>     <img src="../static/hold/mug_ref.png" alt="Reference for HOLD Reconstruction" width="300"/> <!-- Adjust width as needed -->
+> </p>
 
 
 ## Table of content
