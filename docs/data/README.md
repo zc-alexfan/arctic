@@ -1,6 +1,6 @@
 # ARCTIC dataset
 
-> ✨CVPR 2024: HOLD can reconstruct 3D geometries of novel objects and hands. See our [project page](https://github.com/zc-alexfan/hold) for details.
+> ✨CVPR 2024: HOLD is the first method that jointly reconstructs articulated hands and objects from monocular videos without assuming a pre-scanned object template and 3D hand-object training data. See our [project page](https://github.com/zc-alexfan/hold) for details.
 >
 > <p align="center">
 >     <img src="../static/hold/mug_ours.gif" alt="HOLD Reconstruction Example" width="300"/> <!-- Adjust width as needed -->

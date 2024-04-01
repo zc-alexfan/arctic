@@ -27,6 +27,30 @@ Our dataset contains heavily dexterous motion:
     <img src="./docs/static/dexterous.gif" alt="Image" width="100%"/>
 </p>
 
+### News
+
+> ✨CVPR 2024: HOLD is the first method that jointly reconstructs articulated hands and objects from monocular videos without assuming a pre-scanned object template and 3D hand-object training data. See our [project page](https://github.com/zc-alexfan/hold) for details.
+>
+> <p align="center">
+>     <img src="./docs/static/hold/mug_ours.gif" alt="HOLD Reconstruction Example" width="300"/> <!-- Adjust width as needed -->
+> </p>
+>
+> <p align="center">
+>     <img src="./docs/static/hold/mug_ref.png" alt="Reference for HOLD Reconstruction" width="300"/> <!-- Adjust width as needed -->
+> </p>
+
+- 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
+- 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
+- 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
+- 2023.05.04: ARCTIC dataset with code for dataloaders, visualizers, models is officially announced (version 1.0)! 
+- 2023.03.25: ARCTIC ☃️ dataset (version 0.1) is available! 🎉
+
+Invited talks/posters at CVPR2023:
+- [4D-HOI workshop: Keynote](https://4dhoi.github.io/)
+- [Ego4D + EPIC workshop: Oral presentation](https://ego4d-data.org/workshops/cvpr23)
+- [Rhobin workshop: Poster](https://rhobin-challenge.github.io/schedule.html)
+- [3D scene understanding: Oral presentation](https://scene-understanding.com)
+
 ### Why use ARCTIC?
 
 Summary on dataset:
@@ -57,19 +81,7 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
 Create a pull request for missing projects.
 
-### News
 
-- 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
-- 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
-- 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
-- 2023.05.04: ARCTIC dataset with code for dataloaders, visualizers, models is officially announced (version 1.0)! 
-- 2023.03.25: ARCTIC ☃️ dataset (version 0.1) is available! 🎉
-
-Invited talks/posters at CVPR2023:
-- [4D-HOI workshop: Keynote](https://4dhoi.github.io/)
-- [Ego4D + EPIC workshop: Oral presentation](https://ego4d-data.org/workshops/cvpr23)
-- [Rhobin workshop: Poster](https://rhobin-challenge.github.io/schedule.html)
-- [3D scene understanding: Oral presentation](https://scene-understanding.com)
 
 ### Features
 
