@@ -73,12 +73,17 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 
 ### Projects that use ARCTIC
 
-- [ArtiGrasp: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation](https://eth-ait.github.io/artigrasp/)
+Reconstruction:
+
 - [Get a Grip: Reconstructing Hand-Object Stable Grasps in Egocentric Videos](https://zhifanzhu.github.io/getagrip/)
 - [3D Hand Pose Estimation in Egocentric Images in the Wild](https://ap229997.github.io/projects/hands/)
 - [Mitigating Perspective Distortion-induced Shape Ambiguity in Image Crops](https://ap229997.github.io/projects/ambiguity/)
 - [SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation](https://caizhongang.com/projects/SMPLer-X/)
 - [Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects](https://arxiv.org/abs/2403.16428)
+
+Generation:
+
+- [ArtiGrasp: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation](https://eth-ait.github.io/artigrasp/)
 - [GeneOH Diffusion: Towards Generalizable Hand-Object Interaction Denoising via Denoising Diffusion](meowuu7.github.io/GeneOH-Diffusion)
 - [Text2HOI: Text-guided 3D Motion Generation for Hand-Object Interaction](https://github.com/JunukCha/Text2HOI)
 - [QuasiSim: Parameterized Quasi-Physical Simulators for
