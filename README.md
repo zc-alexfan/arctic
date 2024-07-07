@@ -9,7 +9,7 @@
 [ [Paper](https://download.is.tue.mpg.de/arctic/arctic_april_24.pdf) ]
 [ [Video](https://www.youtube.com/watch?v=bvMm8gfFbZ8) ]
 [ [Register ARCTIC Account](https://arctic.is.tue.mpg.de/register.php) ]
-[ [ICCV Competition](https://sites.google.com/view/hands2023/home) ]
+[ [ECCV'24 Competition](https://hands-workshop.org/challenge2024.html) ]
 [ [Leaderboard](docs/leaderboard.md) ]
 
 
@@ -39,6 +39,7 @@ Our dataset contains heavily dexterous motion:
 >     <img src="./docs/static/hold/mug_ref.png" alt="Reference for HOLD Reconstruction" width="300"/> <!-- Adjust width as needed -->
 > </p>
 
+- 2024.07.07: We host HANDS workshop at ECCV'24 to reconstruct hands and objects in ARCTIC without template. Join us [here](https://hands-workshop.org/challenge2024.html)
 - 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
 - 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
 - 2023.06.16: ICCV ARCTIC [challenge](https://sites.google.com/view/hands2023/home) starts!
@@ -61,6 +62,7 @@ Summary on dataset:
 - It features highly dexterous bimanual manipulation motion (beyond quasi-static grasping).
 
 Potential tasks with ARCTIC:
+- Template-free bimanual [hand-object reconstruction](https://github.com/zc-alexfan/hold)
 - Generating [hand grasp](https://korrawe.github.io/HALO/HALO.html) or [motion](https://github.com/cghezhang/ManipNet) with articulated objects
 - Generating [full-body grasp](https://grab.is.tue.mpg.de/) or [motion](https://goal.is.tue.mpg.de/) with articulated objects
 - Benchmarking performance of articulated object pose estimators from [depth images](https://articulated-pose.github.io/) with human in the scene
