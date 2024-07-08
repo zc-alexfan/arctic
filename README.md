@@ -109,6 +109,7 @@ Create a pull request for missing projects.
 - Instructions to setup data, code, and environment to train our baselines.
 - A generalized codebase to train, visualize and evaluate the results of ArcticNet and InterField for the ARCTIC benchmark.
 - A viewer to interact with the prediction.
+- ARCTIC object [URDFs](https://github.com/zdchan/artigrasp/tree/main/rsc/arctic)
 
 ### Getting started
 
