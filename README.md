@@ -70,8 +70,14 @@ Potential tasks with ARCTIC:
 - Studying egocentric hand-object reconstruction
 - Reconstructing [full-body with hands and articulated objects](https://3dlg-hcvc.github.io/3dhoi/) from RGB images
 
-
 Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
+
+### Third-party ARCTIC resources
+
+- [URDFs](https://github.com/zdchan/artigrasp/tree/main/rsc/arctic) for ARCTIC objects
+- [Text description](https://github.com/JunukCha/Text2HOI?tab=readme-ov-file) for ARCTIC motions
+- [Stable grasp](https://github.com/zhifanzhu/getagrip) labels on ARCTIC motions
+
 
 ### Projects that use ARCTIC
 
@@ -109,8 +115,8 @@ Create a pull request for missing projects.
 - Instructions to setup data, code, and environment to train our baselines.
 - A generalized codebase to train, visualize and evaluate the results of ArcticNet and InterField for the ARCTIC benchmark.
 - A viewer to interact with the prediction.
-- ARCTIC object [URDFs](https://github.com/zdchan/artigrasp/tree/main/rsc/arctic)
-- [Text description](https://github.com/JunukCha/Text2HOI?tab=readme-ov-file)
+
+
 
 ### Getting started
 
