@@ -110,6 +110,7 @@ Create a pull request for missing projects.
 - A generalized codebase to train, visualize and evaluate the results of ArcticNet and InterField for the ARCTIC benchmark.
 - A viewer to interact with the prediction.
 - ARCTIC object [URDFs](https://github.com/zdchan/artigrasp/tree/main/rsc/arctic)
+- [Text description](https://github.com/JunukCha/Text2HOI?tab=readme-ov-file)
 
 ### Getting started
 
