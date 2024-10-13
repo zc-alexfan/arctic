@@ -1,6 +1,8 @@
 
 ## ARCTIC 🥶: A Dataset for Dexterous Bimanual Hand-Object Manipulation
 
+### 👉I plan to enter the job market in Summer/Fall 2025. If you have an openning, feel free to [email](https://zc-alexfan.github.io/)!👈
+
 <p align="center">
     <img src="docs/static/arctic-logo.svg" alt="Image" width="600" height="100" />
 </p>
@@ -28,6 +30,9 @@ Our dataset contains heavily dexterous motion:
 </p>
 
 ### News
+
+
+
 
 > ✨CVPR 2024 Highlight: HOLD is the first method that jointly reconstructs articulated hands and objects from monocular videos without assuming a pre-scanned object template and 3D hand-object training data. See our [project page](https://github.com/zc-alexfan/hold) for details.
 >
