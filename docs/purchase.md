@@ -14,7 +14,7 @@ Here are a list of links that I used to purchase the ARCTIC objects:
 Unfortunatley, links for other objects do not work anymore. However, you can find the stock photos of the objects [here](stock_photos/). You can then use Google Image Search to find other vendors selling the same items. For example, 
 
 <p align="center">
-    <img src="./stock_photos/google.png" alt="Image" width="600" height="100" />
+    <img src="./stock_photos/google.png" alt="Image" width="100%" height="auto" />
 </p>
 
 
