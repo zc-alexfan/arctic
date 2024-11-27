@@ -32,8 +32,6 @@ Our dataset contains heavily dexterous motion:
 ### News
 
 
-
-
 > ✨CVPR 2024 Highlight: HOLD is the first method that jointly reconstructs articulated hands and objects from monocular videos without assuming a pre-scanned object template and 3D hand-object training data. See our [project page](https://github.com/zc-alexfan/hold) for details.
 >
 > <p align="center">
@@ -44,6 +42,7 @@ Our dataset contains heavily dexterous motion:
 >     <img src="./docs/static/hold/mug_ref.png" alt="Reference for HOLD Reconstruction" width="300"/> <!-- Adjust width as needed -->
 > </p>
 
+- 2024.11.27: Want to buy objects in real life? See [`docs/purchase.md`](docs/purchase.md)
 - 2024.07.07: We host HANDS workshop at ECCV'24 to reconstruct hands and objects in ARCTIC without template. Join us [here](https://hands-workshop.org/challenge2024.html)
 - 2023.12.20: MoCap can be downloaded now! See download [instructions](docs/data/README.md) and [visualization](docs/data/visualize.md).
 - 2023.09.11: [ARCTIC leaderboard](https://arctic-leaderboard.is.tuebingen.mpg.de/) online!
@@ -82,7 +81,6 @@ Check out our [project page](https://arctic.is.tue.mpg.de) for more details.
 - [URDFs](https://github.com/zdchan/artigrasp/tree/main/rsc/arctic) for ARCTIC objects
 - [Text description](https://github.com/JunukCha/Text2HOI?tab=readme-ov-file) for ARCTIC motions
 - [Stable grasp](https://github.com/zhifanzhu/getagrip) labels on ARCTIC motions
-
 
 ### Projects that use ARCTIC
 
@@ -135,6 +133,7 @@ git clone https://github.com/zc-alexfan/arctic.git
 - Training, evaluating for our ARCTIC baselines: see [`docs/model/README.md`](docs/model/README.md).
 - Evaluation on test set: see [`docs/leaderboard.md`](docs/leaderboard.md)
 - FAQ: see [`docs/faq.md`](docs/faq.md)
+- Purchase real objects: see [`docs/purchase.md`](docs/purchase.md)
 
 ### License
 
