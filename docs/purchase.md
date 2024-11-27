@@ -11,7 +11,7 @@ Here are a list of links that I used to purchase the ARCTIC objects:
 - [Creative Deco A4 Wooden Box with Lid | 33.8 x 24.8 x 10 cm (+/- 1 cm) | Unfinished Storage Box | Large Box | Large Wooden Box Ideal for Storing Valuables, Toys and Tools](https://www.amazon.de/dp/B075X4YHZB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - [Baby Lips Balm Crayon](https://www.amazon.de/dp/B006PG68EU?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
-Unfortunatley, links for other objects do not work anymore. However, you can find the stock photos of the objects [here](stock_photos/). You can then use Google Image Search to find other vendors selling the same items. For example, 
+Unfortunatley, links for other objects do not work anymore. However, you can find the stock photos of the objects [here](stock_photos/). Using these photos, you can then use Google Image Search to find other vendors selling the same items. For example, 
 
 <p align="center">
     <img src="./stock_photos/google.png" alt="Image" width="100%" height="auto" />
