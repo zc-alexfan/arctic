@@ -1,7 +1,6 @@
 
 ## ARCTIC 🥶: A Dataset for Dexterous Bimanual Hand-Object Manipulation
 
-### 👉I plan to enter the job market in Summer/Fall 2025. If you have an openning, feel free to [email](https://zc-alexfan.github.io/)!👈
 
 <p align="center">
     <img src="docs/static/arctic-logo.svg" alt="Image" width="600" height="100" />
