@@ -44,9 +44,9 @@ This section provides instructions on downloading a mini-version of ARCTIC to te
 export ARCTIC_USERNAME=<ENTER_YOUR_ARCTIC_EMAIL>
 export ARCTIC_PASSWORD=<ENTER_YOUR_ARCTIC_PASSWD>
 export SMPLX_USERNAME=<ENTER_YOUR_SMPLX_EMAIL>
-export SMPLX_PASSWORD=<ENTER_YOUR_ARCTIC_PASSWD>
+export SMPLX_PASSWORD=<ENTER_YOUR_SMPLX_PASSWD>
 export MANO_USERNAME=<ENTER_YOUR_MANO_EMAIL>
-export MANO_PASSWORD=<ENTER_YOUR_ARCTIC_PASSWD>
+export MANO_PASSWORD=<ENTER_YOUR_MANO_PASSWD>
 ```
 
 Before starting, check if your credentials are exported correctly (following the commands above).
