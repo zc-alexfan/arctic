@@ -31,14 +31,10 @@ Our dataset contains heavily dexterous motion:
 ### News
 
 
-> ✨CVPR 2024 Highlight: HOLD is the first method that jointly reconstructs articulated hands and objects from monocular videos without assuming a pre-scanned object template and 3D hand-object training data. See our [project page](https://github.com/zc-alexfan/hold) for details.
+> ✨3DV 2026: Looking for hand scans data? PALM is a large-scale dataset containing high-quality 13k registered 3dMD hand scans of 263 subjects and 90k calibrated multiview RGB images. See [PALM](https://github.com/facebookresearch/PALM) for details.
 >
 > <p align="center">
->     <img src="./docs/static/hold/mug_ours.gif" alt="HOLD Reconstruction Example" width="300"/> <!-- Adjust width as needed -->
-> </p>
->
-> <p align="center">
->     <img src="./docs/static/hold/mug_ref.png" alt="Reference for HOLD Reconstruction" width="300"/> <!-- Adjust width as needed -->
+>     <img src="https://github.com/facebookresearch/PALM/blob/main/docs/static/dataset-teaser.jpg" alt="PALM Teaser" width="80%"/> 
 > </p>
 
 - 2024.11.27: Want to buy objects in real life? See [`docs/purchase.md`](docs/purchase.md)
