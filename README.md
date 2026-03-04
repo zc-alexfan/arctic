@@ -167,7 +167,7 @@ Constructing the ARCTIC dataset is a huge effort. The authors deeply thank: [Tsv
 
 For technical questions, please create an issue. For other questions, please contact `arctic@tue.mpg.de`.
 
-For commercial licensing, please contact `ps-licensing@tue.mpg.de`.
+Licensing: ARCTIC data and software are not available for commercial use.
 
 ### Star History
 
